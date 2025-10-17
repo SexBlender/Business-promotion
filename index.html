@@ -22,34 +22,42 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a class="header-nav-logo" href="./index.html">
-          <img class="header-nav-logo-img" src="./images/logo.png" alt="logo" />
-          Product
-        </a>
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html">Product</a>
+      <div class="container header-wrapper">
+        <nav class="header-nav">
+          <a class="header-nav-logo" href="./index.html">
+            <img
+              class="header-nav-logo-img"
+              src="./images/logo.png"
+              alt="logo" />
+            Product
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link current" href="./index.html">Product</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./pricing.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./customers.html">Pricing</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./resources.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header-btn-list">
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign In</button>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./pricing.html">Customers</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./customers.html">Pricing</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./resources.html">Resources</a>
+          <li class="header-btn-item">
+            <button class="header-btn header-btn-signup" type="button">
+              Sign Up
+            </button>
           </li>
         </ul>
-      </nav>
-      <ul class="header-btn-list">
-        <li class="header-btn-item">
-          <button class="header-btn-signin" type="button">Sign In</button>
-        </li>
-        <li class="header-btn-item">
-          <button class="header-btn-signup" type="button">Sign Up</button>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main class="main">
