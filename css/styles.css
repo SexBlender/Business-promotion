@@ -1,6 +1,8 @@
 :root {
   --color-primary: #22343d;
   --color-secondary-txt: #173a56;
+  --txt-color: #252b42;
+  --descr-clr: #374754;
   --color-accent: #02897a;
   --color-background: #f1f1f1;
 }
@@ -61,6 +63,10 @@ img {
   max-width: 1110px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.section {
+  padding: 150px 0;
 }
 
 /* ===HEADER=== */
@@ -241,3 +247,58 @@ img {
 }
 .management-img {
 }
+
+/* ===CONTACTS=== */
+
+/* #region Contacts */
+.section {
+}
+.contact {
+}
+.container {
+}
+.contact-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.68;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--txt-color);
+
+  margin-bottom: 25px;
+}
+
+.contact-description {
+  max-width: 320px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.55556;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--descr-clr);
+
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.contact-list {
+}
+.contact-item {
+}
+.contact-link {
+}
+.contact-map {
+}
+.contact-form {
+}
+.contact-text {
+}
+.form {
+}
+.form-input {
+}
+.form-textarea {
+}
+.form-btn {
+}
+
+/* #endregion Contacts */
